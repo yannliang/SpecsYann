@@ -22,19 +22,19 @@ Pod::Spec.new do |s|
   s.author       = { 'Fabio A. Pelosin' => 'fabio@discontinuity.it' }
   s.source       = { :git => 'https://github.com/yannliang/DSGraphicsKit.git', :tag => s.version.to_s }
   s.platform     = :ios, '4.0'
-#  s.source_files = "Classes", "Classes/Animations/*.{h.m}", "Classes/Images/*.{h.m}", "Classes/Views/*.{h.m}"
+  s.source_files = 'Classes', 'Classes/Animations/*.{h.m}', 'Classes/Images/*.{h.m}', 'Classes/Views/*.{h.m}'
   
-  s.subspec 'Animations' do |an|
-    an.source_files = 'Classes/Animations'
-  end
+#  s.subspec 'Animations' do |an|
+#    an.source_files = 'Classes/Animations'
+#  end
 
-  s.subspec 'Images' do |im|
-    im.source_files = 'Classes/Images'
-  end
+#  s.subspec 'Images' do |im|
+#    im.source_files = 'Classes/Images'
+#  end
 
-  s.subspec 'Views' do |vi|
-    vi.source_files = 'Classes/Views'
-  end
+#  s.subspec 'Views' do |vi|
+#    vi.source_files = 'Classes/Views'
+#  end
 
   s.source_files = 'Classes'
   s.framework    = 'QuartzCore'
