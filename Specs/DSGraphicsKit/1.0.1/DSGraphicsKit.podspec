@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 #    vi.source_files = 'Classes/Views'
 #  end
 
-  s.source_files = 'Classes'
+#  s.source_files = 'Classes'
   s.framework    = 'QuartzCore'
   s.requires_arc = true
 end
