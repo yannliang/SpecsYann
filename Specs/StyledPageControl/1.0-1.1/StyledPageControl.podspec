@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
                        * show current page number
                        * use custom images
                        DESC
-  s.homepage         = "https://github.com/cielliang/iOS-StyledPageControl"
+  s.homepage         = "https://github.com/yannliang/iOS-StyledPageControl"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "hongcheng" => "hongcheng@gmail.com", "Weiyin LIANG" => "weiyin.liang@gmail.com" }
-  s.source           = { :git => "https://github.com/cielliang/iOS-StyledPageControl.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/yannliang/iOS-StyledPageControl.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

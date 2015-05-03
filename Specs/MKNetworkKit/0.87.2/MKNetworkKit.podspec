@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Mugunth Kumar" => "mugunth@steinlogic.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/cielliang/MKNetworkKit.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/yannliang/MKNetworkKit.git", :tag => s.version.to_s }
   s.source_files  = "MKNetworkKit/*.{h,m}"
   s.exclude_files = "**/*NSAlert*"
   s.frameworks = "CFNetwork", "Security"

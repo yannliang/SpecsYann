@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
                        * delegate and datasource similar to that of UITableView
                        * PanelIndexPath behaves like IndexPath, but with an additional parameter, page
                        DESC
-  s.homepage         = "https://github.com/cielliang/PanelTableView"
+  s.homepage         = "https://github.com/yannliang/PanelTableView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "hongcheng" => "hongcheng@gmail.com" }
-  s.source           = { :git => "https://github.com/cielliang/PanelTableView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/yannliang/PanelTableView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

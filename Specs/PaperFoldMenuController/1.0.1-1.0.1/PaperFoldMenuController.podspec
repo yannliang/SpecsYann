@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        PaperFoldMenuController is a UITabBarController replacement, but displays the view controllers in a table view on the left side of the screen. This table view is shown/hidden using PaperFold-for-iOS. Selecting from the menu on the left changes the view controller on the right. PaperFoldMenuController uses view controller containment.
                        DESC
-  s.homepage         = "https://github.com/cielliang/PaperFoldMenuController"
+  s.homepage         = "https://github.com/yannliang/PaperFoldMenuController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "hongcheng" => "hongcheng@gmail.com", "Weiyin LIANG" => "weiyin.liang@gmail.com" }
-  s.source           = { :git => "https://github.com/cielliang/PaperFoldMenuController.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/yannliang/PaperFoldMenuController.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

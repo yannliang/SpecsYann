@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = 'https://github.com/Discontinuity-srl/DSGraphicsKit'
   s.author       = { 'Fabio A. Pelosin' => 'fabio@discontinuity.it' }
-  s.source       = { :git => 'https://github.com/cielliang/DSGraphicsKit.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/yannliang/DSGraphicsKit.git', :tag => s.version.to_s }
   s.platform     = :ios, '4.0'
   s.source_files = "Classes", "Classes/Animations/*.{h.m}", "Classes/Images/*.{h.m}", "Classes/Views/*.{h.m}"
   s.framework    = 'QuartzCore'

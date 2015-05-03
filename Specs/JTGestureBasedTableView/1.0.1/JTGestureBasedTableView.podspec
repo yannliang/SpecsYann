@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        An iOS objective-c library template to recreate the gesture based interaction found from Clear for iPhone app
                        DESC
-  s.homepage         = "https://github.com/cielliang/JTGestureBasedTableViewDemo"
+  s.homepage         = "https://github.com/yannliang/JTGestureBasedTableViewDemo"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "jamztang" => "http://jamztang.com/" }
-  s.source           = { :git => "https://github.com/cielliang/JTGestureBasedTableViewDemo.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/yannliang/JTGestureBasedTableViewDemo.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
