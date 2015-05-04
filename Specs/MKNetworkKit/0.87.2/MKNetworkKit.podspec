@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Categories'
 
   s.subspec 'Categories' do |categories|
-    categories.source_files = "MKNetworkKit/Categories/*.{h,m}", "MKNetworkKit/MK*.{h,m}"
+    categories.source_files = 'MKNetworkKit/Categories'
     categories.exclude_files = "**/*NSAlert*"
   end
 end
