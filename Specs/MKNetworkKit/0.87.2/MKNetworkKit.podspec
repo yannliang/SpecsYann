@@ -25,6 +25,5 @@ Pod::Spec.new do |s|
 
   s.subspec 'Categories' do |categories|
     categories.source_files = 'MKNetworkKit/Categories'
-    categories.exclude_files = "**/*NSAlert*"
   end
 end
